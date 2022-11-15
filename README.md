@@ -1,8 +1,8 @@
-# Getting Started with National Oceanic and Atmospheric Administration (NOAA)  in MATLAB&reg;
+# Getting Started with National Oceanic and Atmospheric Administration (NOAA) Data in MATLAB&reg;
 
 ## Description
 
-This interface allows users to access the NOAA directly from MATLAB.  Quantative and climate risk analysts can use the available data to make investment decisions based on climate data and weather patterns.
+This interface allows users to access NOAA data directly from MATLAB.  Quantative and climate risk analysts can use the available data to make investment decisions based on climate data and weather patterns.
 
 ## System Requirements
 
