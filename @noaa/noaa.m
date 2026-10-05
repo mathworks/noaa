@@ -17,7 +17,7 @@ classdef noaa < handle
 %   
 %       TimeOut: 200.00
 
-%   Copyright 2022 The MathWorks, Inc. 
+%   Copyright 2026 The MathWorks, Inc. 
 
   properties
     TimeOut
@@ -53,7 +53,7 @@ classdef noaa < handle
         if exist("url","var") && ~isempty(url)
           c.URL = url;
         else
-          c.URL = "https://www.ncdc.noaa.gov/cdo-web/api/v2/";
+          c.URL = "https://www.ncdc.noaa.gov/cdo-web/api/v2";
         end
 
         % Specify HTTP media type i.e. application content to deal with
@@ -106,6 +106,9 @@ classdef noaa < handle
 
         % Store token in object
         c.Token = apiToken;
+
+        % Add / to base URL for subsequent calls
+        c.URL = strcat(c.URL,"/");
 
       end
           
